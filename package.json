@@ -1,9 +1,6 @@
 {
   "name": "auth-api",
   "version": "1.0.0",
-  "engines": {
-    "node": "16.x"
-  },
   "main": "index.js",
   "license": "MIT",
   "type": "module",

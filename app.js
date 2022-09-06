@@ -20,7 +20,7 @@ app.get('/api/status/', (req, res) => {
 });
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({credentials: true, origin: 'https://italogamainc-auth-api.herokuapp.com'}));
 
 starApplication();
 

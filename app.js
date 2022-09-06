@@ -19,7 +19,7 @@ app.get('/api/status/', (req, res) => {
     })
 });
 
-app.use(express.json(), app.use(cors()));
+app.use(express.json(), cors());
 
 starApplication();
 

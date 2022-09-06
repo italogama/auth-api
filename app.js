@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors';
 
 import { createInitialData } from "./src/config/db/initialData.js";
 import checkToken from './src/config/auth/checkToken.js';
@@ -18,7 +19,7 @@ app.get('/api/status/', (req, res) => {
     })
 });
 
-app.use(express.json());
+app.use(express.json(), app.use(cors()));
 
 starApplication();
 

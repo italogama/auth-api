@@ -9,7 +9,7 @@
   },
   "scripts": {
     "startDev": "nodemon app.js",
-	  "start": "node app.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
